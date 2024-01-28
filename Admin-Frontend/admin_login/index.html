@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form </title>
+    <link rel="stylesheet" href="./Resource/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="image">
+            <img src="./Resource/Texas-logo.png" alt="Texas-logo">
+        </div>
+        <nav class="navigation">
+            <a href="#">Contact Us</a>    
+        </nav>
+    </header>
+    <div class="wrapper" draggable="true">
+
+        <div class="form-box login"  draggable="true">
+            <h1>Admin Login</h1>
+            <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Username" required id="Username">
+                <i class='bx bxs-user-rectangle' ></i>
+                
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="Password">
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <button type="submit" class="btn" onclick="validateLogin()">Login</button>
+            </form>
+        </div>  
+
+
+    </div>
+     <script src="./Resource/script.js"></script>
+     <script type="module" src="https://unkpg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule="https://unkpg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
